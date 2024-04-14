@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: rgb(30, 43, 84);
+    color: aliceblue;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    background-color: rgb(84, 98, 101);
+}
+nav ul{
+    display: flex;
+    justify-content:center;
+    
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(208, 218, 227);
+}
+nav ul li a:hover{
+    color: #d3c4be;
+    font-size: larger;
+}
+.left{
+    font-size: 3rem;
+    color: rgb(54, 71, 10);
+    font-family: "Satisfy", cursive;
+    font-weight: 700;
+    font-style: normal;
+
+      
+    
+}
+.firstSection {
+   display: flex;
+   justify-content: space-around;
+   margin: 50px 0;
+
+}
+.firstSection div{
+   
+    width: 80%;
+    
+
+}
+.leftsection{
+
+    font-size: 2rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: beige;
+    margin: 20px 0;
+    
+    
+}
+.rightsection{
+    
+
+    margin: 50px 0;
+}   
+.color{
+    color: rgb(76, 123, 140);
+    font-size: 30px;
+    font-family: "Cedarville Cursive", cursive;
+    font-weight: 40px;
+    font-style: normal;
+}
+.align{
+    margin-top: 5px;
+}
+.footer{
+    padding: 20px;
+    background-color: rgb(84, 98, 101);
+    color: rgb(208, 218, 227);
+    text-align: center;
+}
+.socials span{
+    font-size: 1rem;
+    color: var(--white);
+    cursor: pointer;
+    transition: 0.3s;
+    
+}
+.socials span:hover{
+    color:rgb(255, 255, 255);
+    font-size: large;
+}
+.leftsection a{
+    background-color: rgb(21, 28, 45);
+    padding: 10px 10px;
+    text-decoration: none;
+    display: inline-block;
+    
+    font-size: 1rem;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(192, 192, 142);
+    margin: 20px 0;
+}
